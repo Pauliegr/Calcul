@@ -3,14 +3,21 @@
     width: 300px;
 }
 .calcul__btn{
+    background-color: teal;
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;
+    color: white;
     padding: 20px;
-    margin: 5px;
-    background-color: paleturquoise;
+    margin: 6px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
 }
 .egal{
     background-color: blue;
     color: white;
-    
+    width: 286px;
+    height: 60px;
 }
 .ac{
     background-color: tomato;
@@ -21,4 +28,10 @@ p{
     color: white;
     text-align: right;
     padding: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;
+}
+#btn{
+    display: flex;
+    flex-direction: column;
 }
